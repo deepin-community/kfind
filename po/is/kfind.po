@@ -1,0 +1,706 @@
+# translation of kfindpart.po to Icelandic
+# Copyright (C) 2003, 2004, 2005, 2006, 2009, 2010, 2011 Free Software Foundation, Inc.
+#
+# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2003.
+# Svanur Palsson <svanur@tern.is>, 2004.
+# Arnar Leosson <leosson@frisurf.no>, 2005.
+# Sveinn í Felli <sveinki@nett.is>, 2009, 2010, 2011, 2017, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kfindpart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-05-27 00:19+0000\n"
+"PO-Revision-Date: 2019-11-05 10:05+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: kfinddlg.cpp:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Find Files/Folders"
+msgstr "Finna skrár/möppur"
+
+#: kfinddlg.cpp:51 kfinddlg.cpp:200
+#, kde-format
+msgctxt "the application is currently idle, there is no active search"
+msgid "Idle."
+msgstr "Laus."
+
+#. i18n as below
+#: kfinddlg.cpp:136
+#, kde-format
+msgid "0 items found"
+msgstr "0 atriði fundust"
+
+#: kfinddlg.cpp:175
+#, kde-format
+msgid "Searching..."
+msgstr "Leita..."
+
+#: kfinddlg.cpp:202
+#, kde-format
+msgid "Canceled."
+msgstr "Hætt við."
+
+#: kfinddlg.cpp:204 kfinddlg.cpp:207 kfinddlg.cpp:210
+#, kde-format
+msgid "Error."
+msgstr "Villa."
+
+#: kfinddlg.cpp:205
+#, kde-format
+msgid "Please specify an absolute path in the \"Look in\" box."
+msgstr "Vinsamlegast tilgreindu fulla slóð'í \"Leita í\" svæðinu."
+
+#: kfinddlg.cpp:208
+#, kde-format
+msgid "Could not find the specified folder."
+msgstr "Fann ekki tilgreinda möppu."
+
+#: kfinddlg.cpp:231 kfinddlg.cpp:255
+#, kde-format
+msgid "one item found"
+msgid_plural "%1 items found"
+msgstr[0] "eitt atriði fannst"
+msgstr[1] "%1 atriði fundust"
+
+#: kfindtreeview.cpp:40
+#, kde-format
+msgid "Read-write"
+msgstr "Les-skrif"
+
+#: kfindtreeview.cpp:41
+#, kde-format
+msgid "Read-only"
+msgstr "Ritvarið"
+
+#: kfindtreeview.cpp:42
+#, kde-format
+msgid "Write-only"
+msgstr "Aðeins-skrif"
+
+#: kfindtreeview.cpp:43
+#, kde-format
+msgid "Inaccessible"
+msgstr "Óaðgengileg"
+
+#: kfindtreeview.cpp:63
+#, kde-format
+msgctxt "file name column"
+msgid "Name"
+msgstr "Heiti"
+
+#: kfindtreeview.cpp:65
+#, kde-format
+msgctxt "name of the containing folder"
+msgid "In Subfolder"
+msgstr "Í undirmöppunni"
+
+#: kfindtreeview.cpp:67
+#, kde-format
+msgctxt "file size column"
+msgid "Size"
+msgstr "Stærð"
+
+#: kfindtreeview.cpp:69
+#, kde-format
+msgctxt "modified date column"
+msgid "Modified"
+msgstr "Breytt"
+
+#: kfindtreeview.cpp:71
+#, kde-format
+msgctxt "file permissions column"
+msgid "Permissions"
+msgstr "Aðgangsheimildir"
+
+#: kfindtreeview.cpp:73
+#, kde-format
+msgctxt "first matching line of the query string in this file"
+msgid "First Matching Line"
+msgstr "Fyrsta samsvarandi lína"
+
+#: kfindtreeview.cpp:337
+#, kde-format
+msgid "&Open containing folder(s)"
+msgstr "&Opna áfangamöppu(r)"
+
+#: kfindtreeview.cpp:341
+#, kde-format
+msgid "&Delete"
+msgstr "&Eyða"
+
+#: kfindtreeview.cpp:345
+#, kde-format
+msgid "&Move to Trash"
+msgstr "Setja í &ruslið"
+
+#: kfindtreeview.cpp:456
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Results As"
+msgstr "Vista niðurstöður sem"
+
+#: kfindtreeview.cpp:481
+#, kde-format
+msgid "Unable to save results."
+msgstr "Ekki tókst að vista niðurstöðurnar."
+
+#: kfindtreeview.cpp:495
+#, kde-format
+msgid "KFind Results File"
+msgstr "KFind niðurstöðuskrá"
+
+#: kfindtreeview.cpp:510
+#, kde-format
+msgctxt "%1=filename"
+msgid "Results were saved to: %1"
+msgstr "Niðurstöðurnar voru vistaðar í: %1"
+
+#: kfindtreeview.cpp:600 kftabdlg.cpp:400
+#, kde-format
+msgid "&Properties"
+msgstr "&Eiginleikar"
+
+#: kftabdlg.cpp:68
+#, kde-format
+msgctxt "this is the label for the name textfield"
+msgid "&Named:"
+msgstr "&Nefnd:"
+
+#: kftabdlg.cpp:71
+#, kde-format
+msgid "You can use wildcard matching and \";\" for separating multiple names"
+msgstr "Þú mátt nota algildisstafi og \";\" til að aðskilja mörg heiti"
+
+#: kftabdlg.cpp:77
+#, kde-format
+msgid "Look &in:"
+msgstr "&Leita í:"
+
+#: kftabdlg.cpp:80
+#, kde-format
+msgid "Include &subfolders"
+msgstr "Leita í &undirmöppum"
+
+#: kftabdlg.cpp:81
+#, kde-format
+msgid "Case s&ensitive search"
+msgstr "Leit &háð há-/lág-stöfum"
+
+#: kftabdlg.cpp:82
+#, kde-format
+msgid "&Browse..."
+msgstr "&Velja..."
+
+#: kftabdlg.cpp:83
+#, kde-format
+msgid "&Use files index"
+msgstr "&Nota skráaryfirlit"
+
+#: kftabdlg.cpp:84
+#, kde-format
+msgid "Show &hidden files"
+msgstr "Sýna &faldar skrár"
+
+#: kftabdlg.cpp:103
+#, kde-format
+msgid ""
+"<qt>Enter the filename you are looking for. <br />Alternatives may be "
+"separated by a semicolon \";\".<br /><br />The filename may contain the "
+"following special characters:<ul><li><b>?</b> matches any single character</"
+"li><li><b>*</b> matches zero or more of any characters</li><li><b>[...]</b> "
+"matches any of the characters between the braces</li></ul><br />Example "
+"searches:<ul><li><b>*.kwd;*.txt</b> finds all files ending with .kwd or ."
+"txt</li><li><b>go[dt]</b> finds god and got</li><li><b>Hel?o</b> finds all "
+"files that start with \"Hel\" and end with \"o\", having one character in "
+"between</li><li><b>My Document.kwd</b> finds a file of exactly that name</"
+"li></ul></qt>"
+msgstr ""
+"<qt>Sláðu inn heiti skráarinnar sem þú ert að leita að. <br />Þú getur sett "
+"fleiri heiti með því að skilja á milli með \";\".<br /><br />Skráarheitið má "
+"einungis innihalda eftirtalin sértákn:<ul><li><b>?</b> passar við hvaða einn "
+"staf sem er</li><li><b>*</b> passar við engan eða fleiri stafi</"
+"li><li><b>[...]</b> passar við þá stafi sem eru innan í svigunum</li></"
+"ul><br />Dæmi:<ul><li><b>*.kwd;*.txt</b> finnur allar skrár sem enda á .kwd "
+"eða .txt</li><li><b>go[dt]</b> finnur god og got</li><li><b>Hel?o</b> finnur "
+"allar skrár sem byrja á \"Hel\" og enda á \"o\", með einu tákni á milli</"
+"li><li><b>Skjalið mitt.kwd</b> finnur nákvæmlega þessa skrá</li></ul></qt>"
+
+#: kftabdlg.cpp:124
+#, kde-format
+msgid ""
+"<qt>This lets you use the files' index created by the <i>slocate</i> package "
+"to speed-up the search; remember to update the index from time to time "
+"(using <i>updatedb</i>).</qt>"
+msgstr ""
+"<qt>Þeta leyfir þér að nota skráaryfirlitið sem búið er til með <i>slocate</"
+"i> pakkanum til að hraða á leitinni.  Gleymdu ekki að uppfæra yfirlitið af "
+"og til (með skipuninni <i>updatedb</i>).</qt>"
+
+#: kftabdlg.cpp:168
+#, kde-format
+msgid "Find all files created or &modified:"
+msgstr "Finna allar nýjar skrár eða &breyttar:"
+
+#: kftabdlg.cpp:170
+#, kde-format
+msgid "&between"
+msgstr "&milli"
+
+#: kftabdlg.cpp:172
+#, kde-format
+msgid "and"
+msgstr "og"
+
+#: kftabdlg.cpp:194
+#, kde-format
+msgid "File &size is:"
+msgstr "&Stærðin er:"
+
+#: kftabdlg.cpp:207
+#, kde-format
+msgid "Files owned by &user:"
+msgstr "Skrár eignaðar &notanda:"
+
+#: kftabdlg.cpp:212
+#, kde-format
+msgid "Owned by &group:"
+msgstr "Eignaðar &hóp:"
+
+#: kftabdlg.cpp:215
+#, kde-format
+msgctxt "file size isn't considered in the search"
+msgid "(none)"
+msgstr "(ekkert)"
+
+#: kftabdlg.cpp:216
+#, kde-format
+msgid "At Least"
+msgstr "Að minnsta kosti"
+
+#: kftabdlg.cpp:217
+#, kde-format
+msgid "At Most"
+msgstr "Í mesta lagi"
+
+#: kftabdlg.cpp:218
+#, kde-format
+msgid "Equal To"
+msgstr "Jafnt og"
+
+#: kftabdlg.cpp:220 kftabdlg.cpp:833
+#, kde-format
+msgid "Byte"
+msgid_plural "Bytes"
+msgstr[0] "Bæti"
+msgstr[1] "Bæti"
+
+#: kftabdlg.cpp:221
+#, kde-format
+msgid "KiB"
+msgstr "KiB"
+
+#: kftabdlg.cpp:222
+#, kde-format
+msgid "MiB"
+msgstr "MiB"
+
+#: kftabdlg.cpp:223
+#, kde-format
+msgid "GiB"
+msgstr "GiB"
+
+#: kftabdlg.cpp:286
+#, kde-format
+msgctxt "label for the file type combobox"
+msgid "File &type:"
+msgstr "Skráa&tegund:"
+
+#: kftabdlg.cpp:291
+#, kde-format
+msgid "C&ontaining text:"
+msgstr "Sem &inniheldur texta:"
+
+#: kftabdlg.cpp:297
+#, kde-format
+msgid ""
+"<qt>If specified, only files that contain this text are found. Note that not "
+"all file types from the list above are supported. Please refer to the "
+"documentation for a list of supported file types.</qt>"
+msgstr ""
+"<qt> Ef tilgreint, finnast aðeins skrár sem innihalda þennan texta.  "
+"Athugaðu að það er ekki stuðningur fyrir allar skráartegundir í listanum "
+"fyrir ofan. Vinsamlegast líttu í leiðbeiningarnar til að fá lista yfir skrár "
+"sem stuðningur er fyrir.</qt>"
+
+#: kftabdlg.cpp:305
+#, kde-format
+msgid "Case s&ensitive"
+msgstr "Leit &háð há-/lág-stöfum"
+
+#: kftabdlg.cpp:306
+#, kde-format
+msgid "Include &binary files"
+msgstr "Leita í &tvíundarskrám"
+
+#: kftabdlg.cpp:309
+#, kde-format
+msgid ""
+"<qt>This lets you search in any type of file, even those that usually do not "
+"contain text (for example program files and images).</qt>"
+msgstr ""
+"<qt> Þetta leyfir þér að leita í öllum skráartegundum, jafnvel þeim sem "
+"innihalda vanalega ekki texta (til tæmis forrit og myndir).</qt>"
+
+#: kftabdlg.cpp:316
+#, kde-format
+msgctxt "as in search for"
+msgid "fo&r:"
+msgstr "efti&r:"
+
+#: kftabdlg.cpp:318
+#, kde-format
+msgid "Search &metainfo sections:"
+msgstr "Leita í &lýsihluta:"
+
+#: kftabdlg.cpp:322
+#, kde-format
+msgid "All Files & Folders"
+msgstr "Allar skrár og möppur"
+
+#: kftabdlg.cpp:323
+#, kde-format
+msgid "Files"
+msgstr "Skrár"
+
+#: kftabdlg.cpp:324
+#, kde-format
+msgid "Folders"
+msgstr "Möppur"
+
+#: kftabdlg.cpp:325
+#, kde-format
+msgid "Symbolic Links"
+msgstr "Tákntengi"
+
+#: kftabdlg.cpp:326
+#, kde-format
+msgid "Special Files (Sockets, Device Files, ...)"
+msgstr "Sérstakar skrár (sökklar, tæki, ...)"
+
+#: kftabdlg.cpp:327
+#, kde-format
+msgid "Executable Files"
+msgstr "Keyrsluskrár"
+
+#: kftabdlg.cpp:328
+#, kde-format
+msgid "SUID Executable Files"
+msgstr "SUID keyrsluskrár"
+
+#: kftabdlg.cpp:329
+#, kde-format
+msgid "All Images"
+msgstr "Allar myndir"
+
+#: kftabdlg.cpp:330
+#, kde-format
+msgid "All Video"
+msgstr "Öll myndbönd"
+
+#: kftabdlg.cpp:331
+#, kde-format
+msgid "All Sounds"
+msgstr "Allar hljóðskrár"
+
+#: kftabdlg.cpp:398
+#, kde-format
+msgid "Name/&Location"
+msgstr "Nafn/s&taður"
+
+#: kftabdlg.cpp:399
+#, kde-format
+msgctxt "tab name: search by contents"
+msgid "C&ontents"
+msgstr "&Innihald"
+
+#: kftabdlg.cpp:404
+#, kde-format
+msgid ""
+"<qt>Search within files' specific comments/metainfo<br />These are some "
+"examples:<br /><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
+"title, an album</li><li><b>Images (png...)</b> Search images with a special "
+"resolution, comment...</li></ul></qt>"
+msgstr ""
+"<qt>Leita innan í skrám<br />Hér eru nokkur dæmi:<br /><ul><li><b>Hljóðskrár "
+"(mp3...)</b> leita í id3 merkingu skánna eftir titli, heiti plötu og svo frv."
+"</li><li><b>Myndir (png...)</b> leita að mynd með tiltekinni upplausn eða "
+"athugasemd...</li></ul></qt>"
+
+#: kftabdlg.cpp:412
+#, kde-format
+msgid ""
+"<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
+"(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
+"Search only in Resolution, Bitdepth...</li></ul></qt>"
+msgstr ""
+"<qt>Ef merkt hér, leita einungis í þessu svæði<br /><ul><li><b>Hljóðskrár "
+"(mp3...)</b> Þetta getur verið titill, plata/diskur...</li><li><b>Myndir "
+"(png...)</b> leita eftir upplausn, fjölda lita...</li></ul></qt>"
+
+#: kftabdlg.cpp:553
+#, kde-format
+msgid "Unable to search within a period which is less than a minute."
+msgstr "Ekki er hægt að leita í tímabili sem er minni en mínúta."
+
+#: kftabdlg.cpp:564
+#, kde-format
+msgid "The date is not valid."
+msgstr "Dagsetningin er ekki gild."
+
+#: kftabdlg.cpp:566
+#, kde-format
+msgid "Invalid date range."
+msgstr "Óleyfilegt tímabil."
+
+#: kftabdlg.cpp:568
+#, kde-format
+msgid "Unable to search dates in the future."
+msgstr "Ekki er hægt að leita að dagsetningum í framtíðinni!"
+
+#: kftabdlg.cpp:640
+#, kde-format
+msgid "Size is too big. Set maximum size value?"
+msgstr "Stærð er of stór. Setja hámarksstærð?"
+
+#: kftabdlg.cpp:640
+#, kde-format
+msgid "Error"
+msgstr "Villa"
+
+#: kftabdlg.cpp:640
+#, kde-format
+msgid "Set"
+msgstr "Setja"
+
+#: kftabdlg.cpp:640
+#, kde-format
+msgid "Do Not Set"
+msgstr "Ekki setja"
+
+#: kftabdlg.cpp:823
+#, kde-format
+msgctxt ""
+"during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' "
+"minutes, 'h' hours, 'd' days, 'm' months, 'y' years"
+msgid "&during the previous"
+msgid_plural "&during the previous"
+msgstr[0] "&síðustu"
+msgstr[1] "&síðustu"
+
+#: kftabdlg.cpp:824
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "mínútu"
+msgstr[1] "mínútur"
+
+#: kftabdlg.cpp:825
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "klukkustund"
+msgstr[1] "klukkustundir"
+
+#: kftabdlg.cpp:826
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "dag"
+msgstr[1] "daga"
+
+#: kftabdlg.cpp:827
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "month"
+msgid_plural "months"
+msgstr[0] "mánuð"
+msgstr[1] "mánuði"
+
+#: kftabdlg.cpp:828
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "year"
+msgid_plural "years"
+msgstr[0] "ár"
+msgstr[1] "ár"
+
+#: kquery.cpp:570
+#, kde-format
+msgctxt "@title:window"
+msgid "Error while using locate"
+msgstr "Villa við að nota locate"
+
+#: main.cpp:29
+#, kde-format
+msgid "KFind"
+msgstr "KFind"
+
+#: main.cpp:30
+#, kde-format
+msgid "KDE file find utility"
+msgstr "KDE Skráarleitarforrit"
+
+#: main.cpp:31
+#, kde-format
+msgid "(c) 1998-2017, The KDE Developers"
+msgstr "(c) 1998-2017, KDE teymið"
+
+#: main.cpp:33
+#, fuzzy, kde-format
+#| msgid "Kai-Uwe Broulik"
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: main.cpp:33
+#, kde-format
+msgid "Current Maintainer"
+msgstr "Núverandi umsjónaraðili"
+
+#: main.cpp:34
+#, kde-format
+msgid "Eric Coquelle"
+msgstr "Eric Coquelle"
+
+#: main.cpp:34
+#, kde-format
+msgid "Former Maintainer"
+msgstr "Fyrrverandi umsjónarmaður"
+
+#: main.cpp:35
+#, kde-format
+msgid "Mark W. Webb"
+msgstr "Mark W. Webb"
+
+#: main.cpp:35
+#, kde-format
+msgid "Developer"
+msgstr "Forritari"
+
+#: main.cpp:36
+#, kde-format
+msgid "Beppe Grimaldi"
+msgstr "Beppe Grimaldi"
+
+#: main.cpp:36
+#, kde-format
+msgid "UI Design & more search options"
+msgstr "Viðmótshönnun og fleiri leitarmöguleikar"
+
+#: main.cpp:37
+#, kde-format
+msgid "Martin Hartig"
+msgstr "Martin Hartig"
+
+#: main.cpp:38
+#, kde-format
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#: main.cpp:39
+#, kde-format
+msgid "Mario Weilguni"
+msgstr "Mario Weilguni"
+
+#: main.cpp:40
+#, kde-format
+msgid "Alex Zepeda"
+msgstr "Alex Zepeda"
+
+#: main.cpp:41
+#, kde-format
+msgid "Miroslav Flídr"
+msgstr "Miroslav Flídr"
+
+#: main.cpp:42
+#, kde-format
+msgid "Harri Porten"
+msgstr "Harri Porten"
+
+#: main.cpp:43
+#, kde-format
+msgid "Dima Rogozin"
+msgstr "Dima Rogozin"
+
+#: main.cpp:44
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: main.cpp:45
+#, kde-format
+msgid "Hans Petter Bieker"
+msgstr "Hans Petter Bieker"
+
+#: main.cpp:46
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:46
+#, kde-format
+msgid "UI Design"
+msgstr "Viðmótshönnun"
+
+#: main.cpp:47
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: main.cpp:48
+#, kde-format
+msgid "Clarence Dang"
+msgstr "Clarence Dang"
+
+#: main.cpp:49
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Pjetur G. Hjaltason, Richard Allen, Svanur Pálsson"
+
+#: main.cpp:49
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pjetur@pjetur.net, ra@ra.is, svanurpalsson@hotmail.com"
+
+#: main.cpp:55
+#, kde-format
+msgid "Path(s) to search"
+msgstr "Slóð(ir) til að leita"
+
+#~ msgid "Regular e&xpression"
+#~ msgstr "Reg&luleg segð"
+
+#~ msgid "&Edit..."
+#~ msgstr "Br&eyta..."
+
+#~ msgid "HTML page"
+#~ msgstr "Vefsíða"
+
+#~ msgid "Text file"
+#~ msgstr "Textaskrá"

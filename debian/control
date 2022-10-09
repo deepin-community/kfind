@@ -1,0 +1,34 @@
+Source: kfind
+Section: utils
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+           Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.5~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.83.0~),
+               gettext,
+               libkf5archive-dev (>= 5.83.0~),
+               libkf5coreaddons-dev (>= 5.83.0~),
+               libkf5doctools-dev (>= 5.83.0~),
+               libkf5filemetadata-dev (>= 5.83.0~),
+               libkf5i18n-dev (>= 5.83.0~),
+               libkf5kio-dev (>= 5.83.0~),
+               libkf5textwidgets-dev (>= 5.68.0~),
+               libkf5widgetsaddons-dev (>= 5.83.0~),
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.15.0~),
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://apps.kde.org/en/kfind
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kfind
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kfind.git
+
+Package: kfind
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: file search utility by KDE
+ KFind can be used as a standalone search tool, launched by KRunner or from
+ your menu. It is also integrated into Konqueror as "Find File" in the
+ "Tools" menu. It allows you to find files by name, type or content.
